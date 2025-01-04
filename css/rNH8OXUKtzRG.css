@@ -1,0 +1,35 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/10/2017 08:34
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/2aEN2KKNMoJJ.eot");
+  src: url("../fonts/2aEN2KKNMoJJ.eot#iefix") format("embedded-opentype"),
+       url("../fonts/wdGKb9OACeAs.woff") format("woff"),
+       url("../fonts/DSB4dnS0V01a.ttf") format("truetype"),
+       url("../images/YPYoif3dr9UC.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../images/WTTbBL6Mc2Ms.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+	font-family: Flaticon;
+	font-size: 20px;
+	font-style: normal;
+	margin-left: 0px;
+}
+
+.flaticon-play-button:before { content: "\f100"; }
+.flaticon-adobe:before { content: "\f101"; }
+.flaticon-settings:before { content: "\f102"; }
+.flaticon-web-design:before { content: "\f103"; }
